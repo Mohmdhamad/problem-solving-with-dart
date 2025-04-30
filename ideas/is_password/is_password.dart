@@ -4,11 +4,10 @@ import 'dart:io';
 
 void main(){
   int x =int.parse(stdin.readLineSync()!); 
-  do{  
+  while (x !=1999){  
     print('wrong');
     x = int.parse(stdin.readLineSync()!);
-  
-}while (x !=1999);
+}
     print('correct');
 
 }

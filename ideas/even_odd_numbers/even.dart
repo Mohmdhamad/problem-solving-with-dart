@@ -12,7 +12,7 @@ void main() {
     }
     if (num > 0) {
       pos++;
-    } else {
+    } else if (num < 0) {
       neg++;
     }
   }
